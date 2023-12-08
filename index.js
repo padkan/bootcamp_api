@@ -29,6 +29,7 @@ if (process.env.NODE_ENV === "development") {
 
 // File uploading
 app.use(fileUpload());
+
 // set static folder
 app.use(express.static(path.join(__dirname, "public")));
 // Mount routers
